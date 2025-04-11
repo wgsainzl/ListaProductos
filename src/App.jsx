@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import logo from "./Images/Farmacia.png";
-import med1 from "./Images/Ibuprofeno.png";
 import "./CSS/Styles.css";
+import ProductList from "./ProductList";
 
 function App() {
   return (
@@ -36,18 +36,8 @@ function App() {
           </a>
         </div>
       </div>
-      <div>
-        <div class="card">
-        <img src={med1} alt="Med1" className="med1"/>
-          <div class="container">
-            <h4>
-              <b>Ibuprofeno</b>
-            </h4>
-            <p>10 cápsulas, 400 mg</p>
-            <button className="med-btn">MXN 149.99</button>
-          </div>
-        </div>
-      </div>
+
+      <ProductList />
     </>
   );
 }

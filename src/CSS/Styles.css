@@ -88,7 +88,9 @@ a:hover {
   padding: 2px 16px;
 }
 
-.med1 {
+.med {
+  margin-top: 10px;
+  height: 450px;
   width:100%;
   padding: 0.5rem 0;
 }
@@ -105,4 +107,9 @@ a:hover {
 
 .med-btn:hover {
   background-color: #154ed6;
+}
+
+.card-container {
+  margin-top: 10px;
+  display: flex;
 }
